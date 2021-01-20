@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  color: #212121;
+  /* text-shadow: 2px 2px 3px rgb(73, 73, 73);
+  background: radial-gradient(
+    circle,
+    rgb(209 185 255) 0%,
+    rgb(255 181 132) 100%
+  ); */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.popup-content {
+  margin: auto;
+  border-radius: 5px;
+  background: rgb(43, 43, 43);
+  padding: 5px;
+}
+.popup-arrow {
+  color: rgb(43, 43, 43);
+}
+[role='tooltip'].popup-content {
+  color: #e9e9e9;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+}
+
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+[data-popup='tooltip'].popup-overlay {
+  background: transparent;
+}

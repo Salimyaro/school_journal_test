@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.cell {
+  position: relative;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 30px;
+  display: block;
+  min-width: 30px;
+  min-height: 30px;
+}
+.cell:first-child {
+  width: 200px;
+}
+.mark {
+  min-width: 28px;
+  min-height: 28px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.comment {
+  position: absolute;
+  display: none;
+}
+.cell:active .comment {
+  display: block;
+}

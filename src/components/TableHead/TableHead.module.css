@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.cell {
+  border: 1px solid black;
+  text-align: center;
+  line-height: 30px;
+  display: block;
+  min-width: 30px;
+  min-height: 30px;
+}
+.cell:first-child {
+  width: 200px;
+}
