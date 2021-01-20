@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/school_journal_test/static/css/main.f4b95d2d.chunk.css",
-    "main.js": "/school_journal_test/static/js/main.a655cb1f.chunk.js",
-    "main.js.map": "/school_journal_test/static/js/main.a655cb1f.chunk.js.map",
+    "main.css": "/school_journal_test/static/css/main.6d844966.chunk.css",
+    "main.js": "/school_journal_test/static/js/main.7d5ddf54.chunk.js",
+    "main.js.map": "/school_journal_test/static/js/main.7d5ddf54.chunk.js.map",
     "runtime-main.js": "/school_journal_test/static/js/runtime-main.7d938444.js",
     "runtime-main.js.map": "/school_journal_test/static/js/runtime-main.7d938444.js.map",
     "static/css/2.de71bbd8.chunk.css": "/school_journal_test/static/css/2.de71bbd8.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.f04a4d85.chunk.js.map": "/school_journal_test/static/js/2.f04a4d85.chunk.js.map",
     "index.html": "/school_journal_test/index.html",
     "static/css/2.de71bbd8.chunk.css.map": "/school_journal_test/static/css/2.de71bbd8.chunk.css.map",
-    "static/css/main.f4b95d2d.chunk.css.map": "/school_journal_test/static/css/main.f4b95d2d.chunk.css.map",
+    "static/css/main.6d844966.chunk.css.map": "/school_journal_test/static/css/main.6d844966.chunk.css.map",
     "static/js/2.f04a4d85.chunk.js.LICENSE.txt": "/school_journal_test/static/js/2.f04a4d85.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7d938444.js",
     "static/css/2.de71bbd8.chunk.css",
     "static/js/2.f04a4d85.chunk.js",
-    "static/css/main.f4b95d2d.chunk.css",
-    "static/js/main.a655cb1f.chunk.js"
+    "static/css/main.6d844966.chunk.css",
+    "static/js/main.7d5ddf54.chunk.js"
   ]
 }
