@@ -1,9 +1,13 @@
 .container {
   display: flex;
   flex-direction: row;
+  /* -webkit-appearance: none; */
 }
 
 .cell {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
   position: relative;
   border: 1px solid black;
   text-align: center;
@@ -11,15 +15,21 @@
   display: block;
   min-width: 30px;
   min-height: 30px;
+  /* -webkit-appearance: none; */
 }
 .cell:first-child {
   width: 200px;
 }
 .mark {
-  min-width: 28px;
-  min-height: 28px;
+  border: none;
+  /* -webkit-appearance: none; */
+  padding: 0px;
+  margin: 0;
+  background-color: transparent;
+  width: 28px;
+  height: 28px;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 14px;
 }
 .comment {
   position: absolute;

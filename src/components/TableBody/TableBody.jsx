@@ -21,9 +21,9 @@ export default function TableBody({ data }) {
                 {day.mark && (
                   <Popup
                     trigger={
-                      <span type="button" className={s.mark}>
+                      <button type="button" className={s.mark}>
                         {day.mark}
-                      </span>
+                      </button>
                     }
                     position={['top center', 'bottom right', 'bottom left']}
                     closeOnDocumentClick
